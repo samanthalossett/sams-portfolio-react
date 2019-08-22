@@ -4,6 +4,7 @@ footer{
     border-style: solid;
     border-color: blue;
     display: grid;
-    
+    border-bottom: 1px solid #c46666;
     display: center;
+    margin-bottom: 0;
 }

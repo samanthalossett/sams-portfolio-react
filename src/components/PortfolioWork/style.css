@@ -1,0 +1,23 @@
+.Card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    /* float: left; */
+    box-shadow: 80px;
+    background-color: gray;
+    position: relative;
+    color:white;
+}
+
+.cardImage{
+    max-width: 50%;
+    max-height: 0 auto;
+}
+p{
+    grid-template-columns: 1fr 1fr;
+    float: left;
+    color: pink;
+  
+}

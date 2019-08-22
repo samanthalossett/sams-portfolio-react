@@ -38,12 +38,12 @@
   
 }
 .mainDivAppJS{
-  background-image: url("https://cdn.pixabay.com/photo/2018/01/28/11/24/sunflower-3113318__480.jpg");
+  /* background-image: url("https://cdn.pixabay.com/photo/2018/01/28/11/24/sunflower-3113318__480.jpg");
   background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* background-blend-mode: multiply; */
-    color: white;
+    color: black;
 }
 
 /* import 'typeface-roboto'; */
