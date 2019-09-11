@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import Jumbotron from 'react-bootstrap/Jumbotron';
+
 
 function MainContent() {
 
@@ -21,8 +23,13 @@ function MainContent() {
     }
 
     return (
+         <Jumbotron fluid style={{textAlign: 'center'}}>
         <div className="mainContentDiv">Good<div style={styles}>{timeOfDay},</div>and thanks for viewing my portfolio!
         </div>
+
+         </Jumbotron>
     )
 }
 export default MainContent;
+
+
