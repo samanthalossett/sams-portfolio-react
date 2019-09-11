@@ -12,24 +12,25 @@ function MainContent() {
         color: "orange"
     }
     if (hours < 12) {
-        timeOfDay = "morning"
+        timeOfDay = "Morning"
         styles.color = "orange"
     } else if (hours > 12 && hours < 17) {
-        timeOfDay = "afternoon"
+        timeOfDay = "Afternoon"
         styles.color = "blue"
     } else {
-        timeOfDay = "evening"
+        timeOfDay = "Evening"
         styles.color = "pink"
     }
 
     return (
-         <Jumbotron fluid style={{textAlign: 'center'}}>
-        <div className="mainContentDiv">Good<div style={styles}>{timeOfDay},</div>and thanks for viewing my portfolio!
-        </div>
+         <div className="page-featured-image">
+            <Jumbotron className="JumbotronMain" fluid style={{ textAlign: 'center'}}>
+                <div className="mainContentDiv">Good<div style={styles}>{timeOfDay},</div>and thanks for viewing my portfolio!</div>
+            </Jumbotron>
+            </div>
+   
+    )}
 
-         </Jumbotron>
-    )
-}
 export default MainContent;
 
 

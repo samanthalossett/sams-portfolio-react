@@ -6,7 +6,7 @@ import MyPhoto from './components/MyPhoto';
 import Footer from "./components/Footer"
 import MainContent from "./components/MainContent";
 import Card from "./components/PortfolioWork";
-
+import Header from "./components/Header/header";
 
 class App extends Component {
   state = {
@@ -16,9 +16,11 @@ class App extends Component {
   render() {
     return (
       <div className="mainDivAppJS">
+        <Header />
+      <MainContent />
         <Nav />
         <MyPhoto />
-        <MainContent />
+    
         <Card
           name="RoadtripperZzz (Project1)"
           usage="A roadtrip application using mostly HTML, CSS, JS, & API's."
