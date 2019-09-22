@@ -47,3 +47,9 @@
 }
 
 /* import 'typeface-roboto'; */
+.entireSection{
+  background-color: rgb(219, 214, 214);
+  display: block;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+
+}
